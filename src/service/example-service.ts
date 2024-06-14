@@ -18,7 +18,7 @@ export class ExampleService extends SquidService {
   // TODO: !!!IMPORTANT!!! - Replace this function with your own granular security rules
   @secureDatabase('all', 'built_in_db')
   allowAllAccessToBuiltInDb(): boolean {
-    return false;
+    return true;
   }
 
   @webhook('example-service-webhook')
