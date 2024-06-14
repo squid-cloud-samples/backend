@@ -18,7 +18,7 @@ There are three architectural parts to keep in mind when developing with Squid:
 
 ## Developing locally
 
-To develop locally, run `npm run start-squid`
+To develop locally, run `npm run start`
 
 ## ExampleService
 
@@ -27,7 +27,7 @@ experiment with Squid's functionality and explore the Squid Backend SDK.
 
 ## Deploying your code
 
-When you are ready to deploy your code, you can run `squid deploy`. This will deploy your code to the Squid cloud
+When you are ready to deploy your code, you can run `npm run deploy`. This will deploy your code to the Squid cloud
 server,
 making it available to your client application.
 
