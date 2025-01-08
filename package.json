@@ -11,10 +11,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@squidcloud/backend": "^1.0.303"
+    "@squidcloud/backend": "^1.0.304"
   },
   "devDependencies": {
-    "@squidcloud/cli": "^1.0.303",
+    "@squidcloud/cli": "^1.0.304",
     "typescript": "^5.1.6"
   }
 }
