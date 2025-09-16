@@ -7,13 +7,15 @@ import { secureDatabase, SquidService, webhook } from '@squidcloud/backend';
  * 3 - Can be called as a trigger
  * 4 - Can define a webhook
  * 5 - Can be called as a scheduler
- * 6 - And more
+ * 6 - And much more
  *
  * Note: This code will be executed in a secure environment and can perform any operation including database access,
  * API calls, etc.
  *
- * For more information and examples see: https://docs.squid.cloud/docs/development-tools/backend/
+ * For more information and examples see: https://docs.getsquid.ai/docs/sdk/backend-sdk/
  */
+
+// noinspection JSUnusedGlobalSymbols
 export class ExampleService extends SquidService {
   // TODO: !!!IMPORTANT!!! - Replace this function with your own granular security rules
   @secureDatabase('all', 'built_in_db')
@@ -22,7 +24,7 @@ export class ExampleService extends SquidService {
   }
 
   @webhook('example-service-webhook')
-  handleExampleServiceWebhook(): object {
+  async handleExampleServiceWebhook(): Promise<{ message: string; date: string; appId: string | undefined }> {
     const response = {
       message: `Hello from 'example-service-webhook'`,
       date: new Date().toString(),
