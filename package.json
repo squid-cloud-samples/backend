@@ -12,12 +12,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@squidcloud/backend": "^1.0.417",
+    "@squidcloud/backend": "^1.0.418",
     "@squidcloud/client": "^1.0.401",
     "assertic": "^1.3.0"
   },
   "devDependencies": {
-    "@squidcloud/cli": "^1.0.417",
+    "@squidcloud/cli": "^1.0.418",
     "typescript": "^5.9.2",
     "prettier": "^3.6.2",
     "@typescript-eslint/eslint-plugin": "^8.44.0",
