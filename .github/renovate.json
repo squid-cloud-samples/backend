@@ -10,7 +10,7 @@
       "enabled": false
     },
     {
-      "matchPackageNames": ["@squidcloud/cli", "@squidcloud/backend"],
+      "matchPackageNames": ["@squidcloud/cli", "@squidcloud/client", "@squidcloud/backend"],
       "groupName": "Squid backend dependencies",
       "enabled": true
     }
